@@ -3,9 +3,9 @@ import { useState } from "react"
 export default function BGChanger() {
   const [color , setColor] = useState("blue")
 
-  const Red = () => {
-    setColor("red")
-  }
+  // const Red = () => {
+  //   setColor("red")
+  // }
   const green = () => {
     setColor("green")
   }
@@ -33,8 +33,8 @@ export default function BGChanger() {
 
         <button className="outline-none px-4 py-1 rounded-full text-white shadow-lg " 
         // In One line we create function 
-        // onClick={()= > setColor("red")}
-        onClick={Red}
+        onClick={() => setColor("red")}
+        // onClick={Red}
         style={{backgroundColor : "red"}}>Red</button>
 
         <button className="outline-none px-4 py-1 rounded-full text-white shadow-lg " 
