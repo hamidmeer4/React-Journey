@@ -15,8 +15,8 @@ const Github = () => {
     // },[])
 
   return (
-    <div className='text-center m-4 bg-gray-600 text-white p-4 text-3xl' >Github Followers : {data.followers} 
-    <img src={data.avatar_url} alt="Github Picture" width={300} />
+    <div className='text-center m-4 bg-gray-600 text-white p-4 text-3xl  ' >Github Followers : {data.followers} 
+    <img src="https://images.pexels.com/photos/18681383/pexels-photo-18681383/free-photo-of-programming.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Github Picture" width={300} />
 
     </div>
   )
